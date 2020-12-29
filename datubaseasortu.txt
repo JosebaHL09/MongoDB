@@ -1,0 +1,2 @@
+use gabonak
+db.createCollection("students")
