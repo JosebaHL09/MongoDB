@@ -29,7 +29,7 @@ public class Main {
             System.out.println("|3.-Ikale berri bat sartu                                           |");
             System.out.println("|4.-Ikale bat eguneratu                                             |");
             System.out.println("|5.-Ikale bat ezabatu                                               |");
-            System.out.println("|6.-Ikale gaindituak                                                |");
+            System.out.println("|6.-Ikale gaindituak(atal bat gaindituta)                           |");
             System.out.println("|7.-Ikaleak alfabetikoki                                            |");
             System.out.println("|8.-Notak ordenatu                                                  |");
             System.out.println("|0.-Irten                                                           |");
