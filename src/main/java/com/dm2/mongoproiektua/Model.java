@@ -123,7 +123,11 @@ public class Model {
     public static void deleteOne(int id) {
         student = collection.find(eq("_id", "id")).first();
         System.out.println(student);
-        System.out.println("ezabatzen..... ok");
+        if(student == null){
+            System.out.println("Id hori ez dago...");
+        }else{
+            System.out.println("ezabatzen..... ok");
+        }
         collection.deleteOne(eq("_id", id));
 
     }
