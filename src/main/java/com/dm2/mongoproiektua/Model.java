@@ -122,12 +122,7 @@ public class Model {
     //Warning mezua agertzen da baina ondo ezabatzen ditu dokumentuak
     public static void deleteOne(int id) {
         student = collection.find(eq("_id", "id")).first();
-        System.out.println(student);
-        if(student == null){
-            System.out.println("Id hori ez dago...");
-        }else{
-            System.out.println("ezabatzen..... ok");
-        }
+        System.out.println(id + " id-arekin dagoen ikaslea ezabatzen...");
         collection.deleteOne(eq("_id", id));
 
     }
